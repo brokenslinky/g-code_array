@@ -1,4 +1,4 @@
-def array(original_file, output_file, num_x = 1, dist_x = 1, num_y = 1, dist_y = 1, header_end = ""):
+def array(original_file, output_file, num_x = 1, dist_x = 1, num_y = 1, dist_y = 1, header_end = "(Start array)"):
     with open(original_file, 'r') as input, open(output_file, 'w') as output:
         lines = input.readlines()
         section_to_copy = ""
